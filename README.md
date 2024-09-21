@@ -36,4 +36,4 @@ How to execute the code:
 
 Please ensure you have the appropriate FPGA board [xc7a100tcsg324-1] selected in your project settings, matching the requirements for this code.
 
-For any further questions or issues, please contact 2praneelsahu@gmail.com.
+

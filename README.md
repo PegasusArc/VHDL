@@ -12,7 +12,7 @@ The system outputs a signal when the room reaches its maximum occupancy threshol
 
   - `project_code.vhd`: The VHDL code for the room occupancy tracker module.
   - `project_tb.vhd`: The testbench for the room occupancy tracker module.
-  - `coen313_project.xdc`:The XDC constraint file for the implementing on the FPGA device.
+  - `project.xdc`:The XDC constraint file for the implementing on the FPGA device.
   
 
   - `synthesis.log`: Log file generated during the synthesis process.

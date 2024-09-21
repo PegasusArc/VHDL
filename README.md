@@ -15,8 +15,8 @@ The system outputs a signal when the room reaches its maximum occupancy threshol
   - `project.xdc`:The XDC constraint file for the implementing on the FPGA device.
   
 
-  - `synthesis.log`: Log file generated during the synthesis process.
-  - `implementation.log`: Log file generated during the implementation process.
+  - `synthesis(1).log`: Log file generated during the synthesis process.
+  - `implementation(1).log`: Log file generated during the implementation process.
 
 
   - `elaborated schematic.pdf`: The elaborated schematic of the design in pdf format.

@@ -1,20 +1,21 @@
-# Digital Room Occupancy Tracking and Monitoring System
+# 🏢 Digital Room Occupancy Tracking and Monitoring System
 
 This repository contains the **VHDL implementation** of a Digital Room Occupancy Tracking and Monitoring System.  
-The system monitors the number of people in a room using entry and exit photocells and outputs a signal when the room reaches its maximum occupancy threshold.  
 
-The project is developed for implementation on an **FPGA board (xc7a100tcsg324-1)**.
+The system monitors the **number of people in a room** using entry and exit photocells and outputs a signal when the room reaches its **maximum occupancy threshold**.  
+
+The project is developed for implementation on an **FPGA board (`xc7a100tcsg324-1`)**.
 
 ---
 
-## Author
+## 👨‍💻 Author
 **Praneel Sahu**
 
 ---
 
-## Repository Contents
+## 📂 Repository Contents
 - `project_code.vhd` – Main VHDL code for the room occupancy tracker module.  
-- `project_tb.vhd` – Testbench for simulating and validating the room occupancy tracker module.  
+- `project_tb.vhd` – Testbench for simulating and validating the module.  
 - `project.xdc` – XDC constraint file for FPGA implementation.  
 - `synthesis(1).log` – Log file from the synthesis process.  
 - `implementation(1).log` – Log file from the implementation process.  
@@ -24,15 +25,15 @@ The project is developed for implementation on an **FPGA board (xc7a100tcsg324-1
 
 ---
 
-## Prerequisites
-- **Vivado Design Suite** – Install the Xilinx Vivado Design Suite to synthesize, implement, and simulate the design.  
+## ⚙️ Prerequisites
+- **Vivado Design Suite** – Required to synthesize, implement, and simulate the design.  
 - **FPGA Board** – Ensure compatibility with the `xc7a100tcsg324-1` FPGA board.  
 
 ---
 
-## How to Execute
+## ▶️ How to Execute
 
-Follow these steps to set up and run the project in Vivado:
+Follow these steps to set up and run the project in **Vivado**:
 
 1. **Install Vivado**  
    - Download and install the Xilinx Vivado Design Suite if not already installed.  
@@ -42,45 +43,46 @@ Follow these steps to set up and run the project in Vivado:
    - Select the `xc7a100tcsg324-1` FPGA board in the project settings.  
 
 3. **Add Source Files**  
-   - Add `project_code.vhd` to the project’s design sources.  
-   - Add `project_tb.vhd` to the project’s simulation sources.  
-   - Add `project.xdc` to the project’s constraint sources.  
+   - Add `project_code.vhd` to the **Design Sources**.  
+   - Add `project_tb.vhd` to the **Simulation Sources**.  
+   - Add `project.xdc` to the **Constraint Sources**.  
 
 4. **Run Synthesis and Implementation**  
-   - Execute the synthesis process.  
-   - Execute the implementation process.  
+   - Execute **Synthesis**.  
+   - Execute **Implementation**.  
 
 5. **Simulate the Design**  
    - Open the **Run Simulation** tool.  
-   - Run the behavioral simulation to verify the design using the testbench (`project_tb.vhd`).  
+   - Run the **behavioral simulation** using the testbench (`project_tb.vhd`).  
 
 6. **Generate Bitstream**  
-   - Run the **Generate Bitstream** process to create the bitstream file for FPGA programming.  
+   - Run the **Generate Bitstream** process to create the `.bit` file for FPGA programming.  
 
 7. **Program the FPGA**  
    - Open the **Hardware Manager** in Vivado.  
-   - Connect to the target FPGA board (`xc7a100tcsg324-1`) and program the device with the generated bitstream.  
+   - Connect to the FPGA board (`xc7a100tcsg324-1`).  
+   - Program the device with the generated bitstream.  
 
 ---
 
-## Notes
+## 📝 Notes
 - Ensure the FPGA board matches the **xc7a100tcsg324-1** specification to avoid compatibility issues.  
-- The **testbench (`project_tb.vhd`)** validates the functionality of the room occupancy tracker through simulation.  
-- Refer to the schematic PDFs for visual representations of the design at various stages:  
+- The **testbench (`project_tb.vhd`)** validates the occupancy tracker’s functionality in simulation.  
+- Refer to the schematics for visual representations at different stages:  
   - Elaborated schematic  
   - Post-synthesis schematic  
   - Post-implementation schematic  
 
 ---
 
-## License
+## 📜 License
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.  
 
 ---
 
-## Contact
+## 📬 Contact
 For questions or contributions, please contact:  
 **Praneel Sahu** via GitHub.  
 
-© 2025 PegasusArc
+© 2025 **PegasusArc**
